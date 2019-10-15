@@ -13,7 +13,7 @@ searchBar.addEventListener('keypress', function(event){
 
 function getURL(city){
     city = searchBar.value; 
-    let url = `http://api.openweathermap.org/data/2.5/weather?q=${city},US&units=imperial&APPID=81b3b8af03008bae631d214dad2333a6`; 
+    let url = `https://api.openweathermap.org/data/2.5/weather?q=${city},US&units=imperial&APPID=81b3b8af03008bae631d214dad2333a6`; 
     fetch(url, {mode: 'cors'})
     .then(blob => blob.json())
     .then(data => {
