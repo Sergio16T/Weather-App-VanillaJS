@@ -59,7 +59,7 @@ function renderWeatherMessage(data) {
     }
 }
 
-/* maybe write a function to capitlize just first letter of weather description. 
+/* maybe write a function to capitalize just first letter of weather description. 
 function capitalize(string) {
 
 }
